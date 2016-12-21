@@ -186,6 +186,7 @@ ENV AR_armv7_unknown_linux_gnueabihf=armv7-linux-gnueabihf-ar \
     AR_powerpc64_unknown_linux_gnu=powerpc64-linux-gnu-ar \
     CC_powerpc64_unknown_linux_gnu=powerpc64-linux-gnu-gcc-5 \
     CXX_powerpc64_unknown_linux_gnu=powerpc64-linux-gnu-g++-5 \
+    CFLAGS_powerpc64_unknown_linux_gnu=-mcpu=powerpc64 \
     AR_powerpc64le_unknown_linux_gnu=powerpc64le-linux-gnu-ar \
     CC_powerpc64le_unknown_linux_gnu=powerpc64le-linux-gnu-gcc \
     CXX_powerpc64le_unknown_linux_gnu=powerpc64le-linux-gnu-g++ \
